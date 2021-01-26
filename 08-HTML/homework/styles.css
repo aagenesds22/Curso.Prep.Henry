@@ -1,0 +1,49 @@
+body {
+    background-image: url(https://passeiorio.com.br/wp-content/uploads/2018/05/1.png);
+    background-size: cover;
+}
+
+
+
+h1 {
+    color: red;
+}
+
+
+.DivClass {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    margin: 0 auto;
+    background: blue;
+    padding: 50px;
+    border: 4px dashed red;
+    display: flex;   
+}
+
+#thirdDiv ul{
+    width: 400px;
+    margin: 0 auto;
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap:wrap-reverse;    
+}
+
+
+#thirdDiv img {
+    
+    width: 400px;
+    flex-wrap: wrap;    
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;  
+}

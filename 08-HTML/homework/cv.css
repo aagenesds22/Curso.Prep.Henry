@@ -6,11 +6,11 @@
     display: block;
     margin: 0 auto;
     height: auto;
-    width: 22%;
+    width: auto;
     border: 2px ridge rgba(243, 8, 8, 0.801);
     background-color: white;
     border-radius: 24px;
-    font-size: 18px;
+    font-size: 16px;
     padding: 0.5rem;
     text-shadow: 5px 3px 6px darkslategrey;  
     text-align: center;
@@ -19,25 +19,30 @@
 
 * p{
     width: 80%;
-    margin: 42px auto;
+    margin: auto;
     text-align: justify;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 14px;
 }
 
 body {
-    border: none;
-    background-color: white;
+    height: auto;
+    width: 1035px;
+    margin: 0px auto;
+    border-radius: 25px;
     
 }
 
 div {
-    width: 855px;
+    width: auto;
     height: auto;
     margin: 0 auto;
-    background-color: rgba(204, 204, 204, 0.603);
+    background-color: rgba(206, 206, 206, 0.46);
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    padding-top: 25px;
+    padding-top: 15px;
     display: grid;
 
     
@@ -46,7 +51,7 @@ div {
 .head_photo {
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
-    height: 385px;
+    height: auto;
     border: 2px solid black;
     border-bottom: none;
 }
@@ -74,8 +79,8 @@ div {
 
 .head_photo img{
     margin-top: 25px;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     float: right;
     border-radius: 11px;
     
@@ -84,10 +89,9 @@ div {
 .head_photo h1{
     width: auto;
     padding-left: 0px;
-    display: block;
     margin-left: 0;
     margin-top: 0;
-    font-size: 28px;
+    font-size: 26px;
 }
 
 .head_photo ul{
@@ -100,16 +104,21 @@ div {
 .head_photo li{
     font-style: italic;
     text-shadow: 1px 1px 22px black;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .educacion ul, .experienciasLaborales ul, .misHabilidades ul, .misHobbies ul  {
     height: auto;
     width: 80%;
     list-style-type: disc;
-    margin: 35px auto;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    
 }
 
 .educacion li, .experienciasLaborales li, .misHabilidades li, .misHobbies li  {
-    margin-bottom: 15px;
+    margin-bottom: 7px;
+    font-size: 14px;
+    
 }
